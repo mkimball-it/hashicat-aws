@@ -1,4 +1,4 @@
-module "vpc" {
+module "vpc_example_complete-vpc" {
   source  = "app.terraform.io/MKimball-training/vpc/aws"
 
   name = "my-vpc"
