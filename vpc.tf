@@ -1,4 +1,4 @@
-module "vpc_example_complete-vpc" {
+module "vpc" {
 #   source  = "app.terraform.io/MKimball-training/vpc/aws"
   source  = "terraform-aws-modules/vpc/aws//examples/complete-vpc"
 
