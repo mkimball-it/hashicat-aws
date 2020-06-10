@@ -17,8 +17,3 @@ module "vpc" {
     Environment = "dev"
   }
 }
-
-module "vpc" {
-  
-  version = "2.39.0"
-}
