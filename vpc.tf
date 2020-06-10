@@ -1,6 +1,6 @@
 module "vpc" {
-#   source  = "app.terraform.io/MKimball-training/vpc/aws"
-  source  = "terraform-aws-modules/vpc/aws//examples/complete-vpc"
+  source  = "app.terraform.io/MKimball-training/vpc/aws"
+#   source  = "terraform-aws-modules/vpc/aws//examples/complete-vpc"
 
   name = "my-vpc"
   cidr = "10.0.0.0/16"
